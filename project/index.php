@@ -1,4 +1,4 @@
-
+<!-- 
 <?php
 // Init + Start session
 session_start();
@@ -8,7 +8,7 @@ if (is_array($_SESSION['user'])) {
   header("Location: success.php");
   die();
 }
-?>
+?> -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -82,7 +82,7 @@ if (is_array($_SESSION['user'])) {
 		
 		<!-- copyright -->
 		<div class="copyright">
-			<p> &copy; <?php echo date("Y"); ?> HNG Intership Login Form . All rights reserved | Design by Team Area 51</p>
+			<p> copy right &copy; <?php echo date("Y"); ?> HNG Intership Login Form . All rights reserved | Design by Team Area 51</p>
 		</div>
 		<!-- //copyright --> 
 	</div>
