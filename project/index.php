@@ -64,7 +64,7 @@ if (is_array($_SESSION['user'])) {
 						<button class="btn">Log In</button>
 					</div>
 					<div class="links">
-						<p><a href="#">Forgot Password?</a></p>
+						<!-- <p><a href="#">Forgot Password?</a></p> -->
 						<p class="right"><a href="register.php" target="_parent">New User? Register</a></p>
 						<div class="clear"></div>
 					</div>
