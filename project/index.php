@@ -65,7 +65,7 @@ if (is_array($_SESSION['user'])) {
 					</div>
 					<div class="links">
 						<p><a href="#">Forgot Password?</a></p>
-						<p class="right"><a href="#">New User? Register</a></p>
+						<p class="right"><a href="register.php" target="_parent">New User? Register</a></p>
 						<div class="clear"></div>
 					</div>
 				</form>	
