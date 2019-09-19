@@ -38,9 +38,10 @@
 				<span class="fa fa-eercast"></span>
 			</div>
 			<div class="header-left-bottom">
-			<span id="demo" style="color:red; font-size:20px;"></span>
+			
 
-				<form action="index.php" method="post" id="login-form" onsubmit="return login();">
+				<form action="register.php" method="post" id="login-form" >
+
 					<div class="icon1">
 						<span class="fa fa-user"></span>
 						<input type="email" name="email" id="login-email" placeholder="Email Address" required=""/>
@@ -52,7 +53,7 @@
 
                     <div class="icon1">
 						<span class="fa fa-lock"></span>
-						<input type="password"  name="password" id="login-password" placeholder="Confirm Password" required=""/>
+						<input type="password"  name="pass" id="login-password" placeholder="Confirm Password" required=""/>
                     </div>
                     
 					<div class="bottom">
@@ -65,14 +66,7 @@
 					</div>
 				</form>	
 			</div>
-			<div class="social">
-				<ul>
-					<li>or login using : </li>
-					<li><a href="#" class="facebook"><span class="fa fa-facebook"></span></a></li>
-					<li><a href="#" class="twitter"><span class="fa fa-twitter"></span></a></li>
-					<li><a href="#" class="google"><span class="fa fa-google-plus"></span></a></li>
-				</ul>
-			</div>
+			
 		</div>
 		
 		<!-- copyright -->
